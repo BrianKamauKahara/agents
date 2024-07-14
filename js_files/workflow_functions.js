@@ -10,7 +10,7 @@ export const determineNextFunction  = async (state) => {
     return state
 }
 
-export const getDayDateTime = async (state) => {a
+export const getDayDateTime = async (state) => {
     const currentDateTime = new Date();
     const date = currentDateTime.toISOString().split('T')[0];
     const time = currentDateTime.toTimeString().split(' ')[0];
